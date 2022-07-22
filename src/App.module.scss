@@ -1,0 +1,26 @@
+.App{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow:  12px 14px 8px -3px rgba(0,0,0,0.1);;
+    width: 800px;
+    height: 500px;
+    margin-top: 120px;
+    display: flex;
+    overflow: hidden;
+    aside{
+        width: 200px;
+
+    }
+    & > main{
+        flex:1;
+        height: 100%;
+        & > nav{
+            height: 60px;
+            border-bottom: 0.5px solid #eee;
+            display: flex;
+            align-items: center;
+            padding: 15px;
+        }
+    }
+
+}
